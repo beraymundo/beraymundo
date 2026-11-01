@@ -1,0 +1,59 @@
+{
+  "usuario": "beraymundo",
+  "nome": "Bernardo Schmiedel Raymundo",
+  "titulo": "desenvolvimento de software | ferramentas web | simulação robótica",
+  "local": "Colatina (ES)",
+
+  "resumo": "Escrevo software para problemas que existem de verdade: documentos que se repetiam todo mês, controles que viviam em planilha, um time de robôs que precisa decidir melhor em campo.",
+
+  "sobre": [
+    "Estudo no IFES Campus Colatina e desenvolvo principalmente em PHP, JavaScript, C++ e Python.",
+    "Quase tudo que construo nasce de uma necessidade concreta. A Central de Ferramentas, por exemplo, começou como um punhado de scripts Python para gerar documentos da igreja e virou um servidor PHP com editor de .docx e .xlsx no navegador, contas de usuário, backup automático e mais de vinte ferramentas, tudo sem dependências externas.",
+    "Também participo do desenvolvimento do Titãs da Robótica, equipe do IFES Colatina na RoboCup Soccer Simulation 2D, terceira colocada no mundial de 2026. Ali o trabalho é C++ de tomada de decisão e uma regra simples: uma alteração por vez, medida em amostras grandes antes de entrar no time."
+  ],
+
+  "capacidades": [
+    ["web", "Sistemas web sob medida em PHP puro, que rodam em hospedagem simples ou num XAMPP local, sem framework e sem dependências pesadas."],
+    ["docs", "Automação de documentos: gerar, preencher e editar .docx e .xlsx a partir de modelos, direto no navegador, sem Office instalado."],
+    ["processos", "Transformar planilhas e rotinas manuais em ferramentas com login, histórico de versões, lixeira e backup."],
+    ["c++", "Agentes autônomos e simulação: comportamento, tomada de decisão e avaliação estatística de mudanças."],
+    ["dados", "Scripts em Python para extrair, tratar e analisar dados e logs."]
+  ],
+
+  "ferramentas": ["PHP", "JavaScript", "HTML/CSS", "C++", "Python", "CMake", "Git", "Docker", "Linux", "XAMPP / Apache"],
+
+  "areas": [
+    { "id": "web",      "titulo": "Aplicações web e ferramentas", "topicos": ["web", "php", "javascript", "ferramentas"] },
+    { "id": "robotica", "titulo": "Robótica e simulação",         "topicos": ["robotica", "robocup", "simulacao", "cpp"] },
+    { "id": "auto",     "titulo": "Automação e dados",            "topicos": ["automacao", "python", "dados", "scripts"] },
+    { "id": "estudos",  "titulo": "Estudos e experimentos",       "topicos": ["estudo", "ifes", "experimento"] }
+  ],
+  "area_padrao": "Outros projetos",
+
+  "repos": {
+    "php_app_srv": {
+      "nome": "Central de Ferramentas",
+      "descricao": "Servidor PHP com editor de .docx/.xlsx no navegador, geração de documentos por modelo, usuários, backup e ferramentas para casa, finanças, estudos e igreja."
+    }
+  },
+
+  "destaques": ["php_app_srv"],
+  "ocultar": ["beraymundo"],
+  "incluir_forks": [],
+
+  "fora_do_github": [
+    {
+      "nome": "Titãs da Robótica 2D",
+      "stack": "C++",
+      "descricao": "Time de futebol de robôs simulado (RoboCup 2D). Código mantido pela equipe em repositório privado."
+    }
+  ],
+
+  "nota_projetos": "Boa parte do que já fiz ainda está sendo trazida para o GitHub. Esta lista cresce conforme os projetos chegam.",
+
+  "contato": {
+    "email": "",
+    "linkedin": "",
+    "site": ""
+  }
+}

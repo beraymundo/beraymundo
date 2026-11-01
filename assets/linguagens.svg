@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="106" viewBox="0 0 900 106" role="img" aria-label="Linguagens nos repositórios públicos">
+<style>
+  text { font-family: 'Cascadia Code','Cascadia Mono','JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace; font-size: 13px; }
+  .t { fill: #e8e8ea; } .m { fill: #8b8b91; } .a { fill: #5b93ff; }
+</style>
+<rect x="0.5" y="0.5" width="899" height="105" rx="6" fill="#0b0b0c" stroke="#26262a"/>
+<text x="28" y="30"><tspan class="a">$</tspan><tspan class="t"> linguagens --repos-publicos</tspan></text>
+<clipPath id="c"><rect x="28" y="46" width="844" height="8" rx="4"/></clipPath>
+<g clip-path="url(#c)"><rect x="28.00" y="46" width="627.01" height="8" fill="#5b93ff"/><rect x="655.01" y="46" width="157.94" height="8" fill="#2f6fe8"/><rect x="812.95" y="46" width="59.05" height="8" fill="#9dbcff"/></g>
+<rect x="28" y="75" width="10" height="10" fill="#5b93ff"/><text x="46" y="84" class="t">PHP <tspan class="m">74.3%</tspan></text><rect x="132.2" y="75" width="10" height="10" fill="#2f6fe8"/><text x="150.2" y="84" class="t">JavaScript <tspan class="m">18.7%</tspan></text><rect x="291.0" y="75" width="10" height="10" fill="#9dbcff"/><text x="309.0" y="84" class="t">CSS <tspan class="m">7.0%</tspan></text>
+</svg>

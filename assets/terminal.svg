@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="474" viewBox="0 0 900 474" role="img" aria-label="Bernardo Schmiedel Raymundo">
+<style>
+  text { font-family: 'Cascadia Code','Cascadia Mono','JetBrains Mono','SF Mono',Menlo,Consolas,'Liberation Mono',monospace; font-size: 14px; }
+  .t { fill: #e8e8ea; }
+  .m { fill: #8b8b91; }
+  .a { fill: #5b93ff; }
+  .tt { fill: #8b8b91; font-size: 12px; }
+  .cur { fill: #5b93ff; animation: piscar 1.1s steps(1) infinite; }
+  .l { opacity: 0; animation: entrar .25s ease-out forwards; }
+  @keyframes entrar { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes piscar { 50% { opacity: 0; } }
+  @media (prefers-reduced-motion: reduce) { .l { opacity: 1; animation: none; } .cur { animation: none; } }
+</style>
+<rect x="0.5" y="0.5" width="899" height="473" rx="6" fill="#0b0b0c" stroke="#26262a"/>
+<path d="M0.5 6.5a6 6 0 0 1 6-6h887a6 6 0 0 1 6 6V40H0.5z" fill="#121214"/>
+<line x1="0.5" y1="40" x2="899.5" y2="40" stroke="#26262a"/>
+<circle cx="22" cy="20.0" r="5" fill="#3a3a40"/>
+<circle cx="40" cy="20.0" r="5" fill="#3a3a40"/>
+<circle cx="58" cy="20.0" r="5" fill="#3a3a40"/>
+<text class="tt" x="450.0" y="24.0" text-anchor="middle">bernardo@github: ~</text>
+<text class="l" style="animation-delay:0.00s" x="28" y="68" xml:space="preserve"><tspan class="a">bernardo@github</tspan><tspan class="m">:</tspan><tspan class="a">~</tspan><tspan class="m">$ </tspan><tspan class="t">whoami</tspan></text>
+<text class="l" style="animation-delay:0.09s" x="28" y="90" xml:space="preserve"><tspan class="t">Bernardo Schmiedel Raymundo</tspan></text>
+<text class="l" style="animation-delay:0.18s" x="28" y="112" xml:space="preserve"><tspan class="m">desenvolvimento de software | ferramentas web | simulação robótica</tspan></text>
+<text class="l" style="animation-delay:0.36s" x="28" y="156" xml:space="preserve"><tspan class="a">bernardo@github</tspan><tspan class="m">:</tspan><tspan class="a">~</tspan><tspan class="m">$ </tspan><tspan class="t">cat resumo.txt</tspan></text>
+<text class="l" style="animation-delay:0.45s" x="28" y="178" xml:space="preserve"><tspan class="t">Escrevo software para problemas que existem de verdade: documentos que se repetiam todo mês,</tspan></text>
+<text class="l" style="animation-delay:0.54s" x="28" y="200" xml:space="preserve"><tspan class="t">controles que viviam em planilha, um time de robôs que precisa decidir melhor em campo.</tspan></text>
+<text class="l" style="animation-delay:0.72s" x="28" y="244" xml:space="preserve"><tspan class="a">bernardo@github</tspan><tspan class="m">:</tspan><tspan class="a">~</tspan><tspan class="m">$ </tspan><tspan class="t">ls projetos/</tspan></text>
+<text class="l" style="animation-delay:0.81s" x="28" y="266" xml:space="preserve"><tspan class="a">php_app_srv/            titãs-da-robótica-2d/</tspan></text>
+<text class="l" style="animation-delay:0.99s" x="28" y="310" xml:space="preserve"><tspan class="a">bernardo@github</tspan><tspan class="m">:</tspan><tspan class="a">~</tspan><tspan class="m">$ </tspan><tspan class="t">cat status</tspan></text>
+<text class="l" style="animation-delay:1.08s" x="28" y="332" xml:space="preserve"><tspan class="m">repositórios   </tspan><tspan class="t">1 público + 1 fora do GitHub</tspan></text>
+<text class="l" style="animation-delay:1.17s" x="28" y="354" xml:space="preserve"><tspan class="m">linguagens     </tspan><tspan class="t">PHP, JavaScript, CSS</tspan></text>
+<text class="l" style="animation-delay:1.26s" x="28" y="376" xml:space="preserve"><tspan class="m">último push    </tspan><tspan class="t">php_app_srv  (31/10/2026)</tspan></text>
+<text class="l" style="animation-delay:1.35s" x="28" y="398" xml:space="preserve"><tspan class="m">local          </tspan><tspan class="t">Colatina (ES)</tspan></text>
+<g class="l" style="animation-delay:1.53s"><text x="28" y="442" xml:space="preserve"><tspan class="a">bernardo@github</tspan><tspan class="m">:</tspan><tspan class="a">~</tspan><tspan class="m">$ </tspan></text><rect class="cur" x="187.6" y="430" width="8.4" height="16"/></g>
+</svg>
