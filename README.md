@@ -26,7 +26,7 @@ Boa parte do que já fiz ainda está sendo trazida para o GitHub. Esta lista cre
 
 | projeto | o que é | stack | atualizado |
 |:--|:--|:--|:--|
-| [**Central de Ferramentas**](https://github.com/beraymundo/php_app_srv)<br><sub><code>php_app_srv</code></sub> | Servidor PHP com editor de .docx/.xlsx no navegador, geração de documentos por modelo, usuários, backup e ferramentas para casa, finanças, estudos e igreja. | PHP · JavaScript · CSS | out/2026 |
+| [**Central de Ferramentas**](https://github.com/beraymundo/php_app_srv)<br><sub><code>php_app_srv</code></sub> | Servidor PHP com editor de .docx/.xlsx no navegador, geração de documentos por modelo, usuários, backup e ferramentas para casa, finanças, estudos e igreja. | PHP · JavaScript · CSS | nov/2026 |
 
 ### Fora do GitHub ou privados
 
