@@ -2,9 +2,11 @@
 
 ## ~/sobre
 
-Estudo no IFES Campus Colatina e desenvolvo principalmente em PHP, JavaScript, C++ e Python.
+Estudo no IFES Campus Colatina e desenvolvo principalmente em PHP (Laravel e PHP puro), JavaScript, C++ e Python.
 
-Quase tudo que construo nasce de uma necessidade concreta. A Central de Ferramentas, por exemplo, começou como um punhado de scripts Python para gerar documentos da igreja e virou um servidor PHP com editor de .docx e .xlsx no navegador, contas de usuário, backup automático e mais de vinte ferramentas, tudo sem dependências externas.
+Meu TCC do curso técnico é o GingaHub, uma plataforma em Laravel para gestão de academias de artes marciais: cadastro de alunos e academias, matrículas, planos e treinos, com validação de CPF e CNPJ (incluindo o novo CNPJ alfanumérico), transações no banco em cadastros que envolvem várias tabelas e sessão que expira sozinha em computadores compartilhados.
+
+Fora do curso, quase tudo que construo nasce de uma necessidade concreta. A Central de Ferramentas, por exemplo, começou como um punhado de scripts Python para gerar documentos da igreja e virou um servidor PHP com editor de .docx e .xlsx no navegador, contas de usuário, backup automático e mais de vinte ferramentas.
 
 Também participo do desenvolvimento do Titãs da Robótica, equipe do IFES Colatina na RoboCup Soccer Simulation 2D, terceira colocada no mundial de 2026. Ali o trabalho é C++ de tomada de decisão e uma regra simples: uma alteração por vez, medida em amostras grandes antes de entrar no time.
 
@@ -12,7 +14,8 @@ Também participo do desenvolvimento do Titãs da Robótica, equipe do IFES Cola
 
 | | |
 |:--|:--|
-| `web` | Sistemas web sob medida em PHP puro, que rodam em hospedagem simples ou num XAMPP local, sem framework e sem dependências pesadas. |
+| `web` | Sistemas web completos em Laravel (autenticação, regras de negócio, banco relacional) ou em PHP puro quando o projeto pede algo leve, que rode em hospedagem simples ou num XAMPP local. |
+| `banco` | Modelagem de banco relacional em MySQL/MariaDB: migrations, integridade, transações e dados que não duplicam. |
 | `docs` | Automação de documentos: gerar, preencher e editar .docx e .xlsx a partir de modelos, direto no navegador, sem Office instalado. |
 | `processos` | Transformar planilhas e rotinas manuais em ferramentas com login, histórico de versões, lixeira e backup. |
 | `c++` | Agentes autônomos e simulação: comportamento, tomada de decisão e avaliação estatística de mudanças. |
@@ -32,13 +35,14 @@ Boa parte do que já fiz ainda está sendo trazida para o GitHub. Esta lista cre
 
 | projeto | o que é | stack |
 |:--|:--|:--|
-| **Titãs da Robótica 2D** | Time de futebol de robôs simulado (RoboCup 2D). Código mantido pela equipe em repositório privado. | C++ |
+| **GingaHub** | TCC do curso técnico: plataforma que conecta alunos e academias de artes marciais, com matrículas, planos e treinos. Desenvolvido em dupla na organização GingaHub-TCC (repositório privado). | Laravel · PHP · MariaDB · Tailwind |
+| **Titãs da Robótica 2D** | Time de futebol de robôs simulado (RoboCup 2D), terceiro lugar no mundial de 2026. Código mantido pela equipe em repositório privado. | C++ |
 
 ## ~/stack
 
 <img src="assets/linguagens.svg" width="100%" alt="Linguagens nos repositórios públicos">
 
-`PHP` `JavaScript` `HTML/CSS` `C++` `Python` `CMake` `Git` `Docker` `Linux` `XAMPP / Apache`
+`PHP` `Laravel` `JavaScript` `Tailwind CSS` `HTML/CSS` `MySQL / MariaDB` `C++` `Python` `Vite` `CMake` `Git` `Docker` `Linux` `XAMPP / Apache`
 
 ---
 
