@@ -363,9 +363,9 @@ def main():
     ordem_terminal = [p for _, ps in grupos for p in ps]
 
     (RAIZ / "assets").mkdir(exist_ok=True)
-    (RAIZ / "assets" / "terminal.svg").write_text(svg_terminal(cfg, ordem_terminal, linguagens), encoding="utf-8")
+    (RAIZ / "assets" / "terminal.svg").write_text(svg_terminal(cfg, ordem_terminal, linguagens), encoding="utf-8", newline="\n")
     if linguagens:
-        (RAIZ / "assets" / "linguagens.svg").write_text(svg_linguagens(linguagens), encoding="utf-8")
+        (RAIZ / "assets" / "linguagens.svg").write_text(svg_linguagens(linguagens), encoding="utf-8", newline="\n")
     (RAIZ / "README.md").write_text(gerar_readme(cfg, grupos, bool(linguagens)), encoding="utf-8", newline="\n")
     print(f"{len(projetos)} repositórios, {len(linguagens)} linguagens")
 
