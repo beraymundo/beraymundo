@@ -29,13 +29,13 @@ Boa parte do que já fiz ainda está sendo trazida para o GitHub. Esta lista cre
 
 | projeto | o que é | stack | atualizado |
 |:--|:--|:--|:--|
+| [**GingaHub**](https://github.com/GingaHub-TCC/gingahub-AIB)<br><sub><code>GingaHub-TCC/gingahub-AIB</code></sub> | TCC do curso técnico, feito em dupla: plataforma que conecta alunos e academias de artes marciais, com matrículas, planos e treinos, validação de CPF/CNPJ e transações no banco. | Laravel · PHP · MariaDB · Tailwind | out/2026 |
 | [**Central de Ferramentas**](https://github.com/beraymundo/php_app_srv)<br><sub><code>php_app_srv</code></sub> | Servidor PHP com editor de .docx/.xlsx no navegador, geração de documentos por modelo, usuários, backup e ferramentas para casa, finanças, estudos e igreja. | PHP · JavaScript · CSS | nov/2026 |
 
 ### Fora do GitHub ou privados
 
 | projeto | o que é | stack |
 |:--|:--|:--|
-| **GingaHub** | TCC do curso técnico: plataforma que conecta alunos e academias de artes marciais, com matrículas, planos e treinos. Desenvolvido em dupla na organização GingaHub-TCC (repositório privado). | Laravel · PHP · MariaDB · Tailwind |
 | **Titãs da Robótica 2D** | Time de futebol de robôs simulado (RoboCup 2D), terceiro lugar no mundial de 2026. Código mantido pela equipe em repositório privado. | C++ |
 
 ## ~/stack

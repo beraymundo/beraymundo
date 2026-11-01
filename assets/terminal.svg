@@ -25,10 +25,10 @@
 <text class="l" style="animation-delay:0.45s" x="28" y="178" xml:space="preserve"><tspan class="t">Escrevo software para problemas que existem de verdade: documentos que se repetiam todo mês,</tspan></text>
 <text class="l" style="animation-delay:0.54s" x="28" y="200" xml:space="preserve"><tspan class="t">controles que viviam em planilha, um time de robôs que precisa decidir melhor em campo.</tspan></text>
 <text class="l" style="animation-delay:0.72s" x="28" y="244" xml:space="preserve"><tspan class="a">bernardo@github</tspan><tspan class="m">:</tspan><tspan class="a">~</tspan><tspan class="m">$ </tspan><tspan class="t">ls projetos/</tspan></text>
-<text class="l" style="animation-delay:0.81s" x="28" y="266" xml:space="preserve"><tspan class="a">php_app_srv/            gingahub/               titãs-da-robótica-2d/</tspan></text>
+<text class="l" style="animation-delay:0.81s" x="28" y="266" xml:space="preserve"><tspan class="a">gingahub-AIB/           php_app_srv/            titãs-da-robótica-2d/</tspan></text>
 <text class="l" style="animation-delay:0.99s" x="28" y="310" xml:space="preserve"><tspan class="a">bernardo@github</tspan><tspan class="m">:</tspan><tspan class="a">~</tspan><tspan class="m">$ </tspan><tspan class="t">cat status</tspan></text>
-<text class="l" style="animation-delay:1.08s" x="28" y="332" xml:space="preserve"><tspan class="m">repositórios   </tspan><tspan class="t">1 público + 2 fora do GitHub</tspan></text>
-<text class="l" style="animation-delay:1.17s" x="28" y="354" xml:space="preserve"><tspan class="m">linguagens     </tspan><tspan class="t">PHP, JavaScript, CSS</tspan></text>
+<text class="l" style="animation-delay:1.08s" x="28" y="332" xml:space="preserve"><tspan class="m">repositórios   </tspan><tspan class="t">2 públicos + 1 fora do GitHub</tspan></text>
+<text class="l" style="animation-delay:1.17s" x="28" y="354" xml:space="preserve"><tspan class="m">linguagens     </tspan><tspan class="t">PHP, Blade, JavaScript, CSS</tspan></text>
 <text class="l" style="animation-delay:1.26s" x="28" y="376" xml:space="preserve"><tspan class="m">último push    </tspan><tspan class="t">php_app_srv  (01/11/2026)</tspan></text>
 <text class="l" style="animation-delay:1.35s" x="28" y="398" xml:space="preserve"><tspan class="m">local          </tspan><tspan class="t">Colatina (ES)</tspan></text>
 <g class="l" style="animation-delay:1.53s"><text x="28" y="442" xml:space="preserve"><tspan class="a">bernardo@github</tspan><tspan class="m">:</tspan><tspan class="a">~</tspan><tspan class="m">$ </tspan></text><rect class="cur" x="187.6" y="430" width="8.4" height="16"/></g>

@@ -41,7 +41,8 @@ acontecer, um aviso aparece na aba Actions; basta reativar ou rodar manualmente.
 | `capacidades` | tabela "o que posso fazer" (`[rótulo, texto]`) |
 | `ferramentas` | lista em `~/stack`, além das linguagens medidas nos repositórios |
 | `areas`, `area_padrao` | grupos da seção de projetos e os tópicos que levam a cada um |
-| `repos.<nome>` | nome amigável, descrição ou `area` fixa para um repositório |
+| `repos.<nome>` | nome amigável, `descricao`, `stack` (lista) ou `area` fixa para um repositório; para repositórios de organização use `dono/nome` |
+| `repos_externos` | repositórios públicos de organizações em que você participa (`"dono/nome"`); entram como os seus |
 | `destaques` | repositórios que vêm primeiro dentro da sua área |
 | `ocultar` | repositórios públicos que não devem aparecer |
 | `incluir_forks` | forks que devem aparecer (por padrão forks ficam de fora) |

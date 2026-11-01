@@ -66,6 +66,18 @@ def buscar_repos(cfg):
             continue
         r["linguagens"] = api(f"/repos/{r['full_name']}/languages")
         saida.append(r)
+
+    # Repositórios de organizações em que participo ("dono/nome").
+    for nome in cfg.get("repos_externos", []):
+        try:
+            r = api(f"/repos/{nome}")
+        except Exception as e:
+            print(f"aviso: {nome} indisponível ({e})")
+            continue
+        if r["private"] or r.get("archived"):
+            continue
+        r["linguagens"] = api(f"/repos/{r['full_name']}/languages")
+        saida.append(r)
     return saida
 
 
@@ -74,15 +86,18 @@ def buscar_repos(cfg):
 # --------------------------------------------------------------------------
 
 def info_repo(cfg, r):
-    extra = cfg.get("repos", {}).get(r["name"], {})
+    repos_cfg = cfg.get("repos", {})
+    extra = repos_cfg.get(r["full_name"]) or repos_cfg.get(r["name"], {})
+    externo = r["owner"]["login"].lower() != cfg["usuario"].lower()
     langs = sorted(r["linguagens"].items(), key=lambda x: -x[1])
     return {
         "id": r["name"],
+        "rotulo": r["full_name"] if externo else r["name"],
         "nome": extra.get("nome") or r["name"],
         "descricao": extra.get("descricao") or r.get("description") or "",
         "url": r["html_url"],
         "site": r.get("homepage") or "",
-        "stack": [n for n, _ in langs[:3]],
+        "stack": extra.get("stack") or [n for n, _ in langs[:3]],
         "topicos": r.get("topics", []),
         "estrelas": r.get("stargazers_count", 0),
         "push": datetime.strptime(r["pushed_at"], "%Y-%m-%dT%H:%M:%SZ"),
@@ -306,8 +321,8 @@ def gerar_readme(cfg, grupos, tem_linguagens):
         L.append("|:--|:--|:--|:--|")
         for p in projetos:
             nome = f'[**{celula(p["nome"])}**]({p["url"]})'
-            if p["nome"] != p["id"]:
-                nome += f'<br><sub><code>{p["id"]}</code></sub>'
+            if p["nome"] != p["rotulo"]:
+                nome += f'<br><sub><code>{p["rotulo"]}</code></sub>'
             desc = celula(p["descricao"]) or "<sub>sem descrição</sub>"
             if p["site"]:
                 desc += f' <a href="{p["site"]}">demo</a>'

@@ -98,9 +98,20 @@
     "php_app_srv": {
       "nome": "Central de Ferramentas",
       "descricao": "Servidor PHP com editor de .docx/.xlsx no navegador, geração de documentos por modelo, usuários, backup e ferramentas para casa, finanças, estudos e igreja."
+    },
+    "GingaHub-TCC/gingahub-AIB": {
+      "nome": "GingaHub",
+      "descricao": "TCC do curso técnico, feito em dupla: plataforma que conecta alunos e academias de artes marciais, com matrículas, planos e treinos, validação de CPF/CNPJ e transações no banco.",
+      "stack": [
+        "Laravel",
+        "PHP",
+        "MariaDB",
+        "Tailwind"
+      ]
     }
   },
   "destaques": [
+    "gingahub-AIB",
     "php_app_srv"
   ],
   "ocultar": [
@@ -108,11 +119,6 @@
   ],
   "incluir_forks": [],
   "fora_do_github": [
-    {
-      "nome": "GingaHub",
-      "stack": "Laravel · PHP · MariaDB · Tailwind",
-      "descricao": "TCC do curso técnico: plataforma que conecta alunos e academias de artes marciais, com matrículas, planos e treinos. Desenvolvido em dupla na organização GingaHub-TCC (repositório privado)."
-    },
     {
       "nome": "Titãs da Robótica 2D",
       "stack": "C++",
@@ -124,5 +130,8 @@
     "email": "",
     "linkedin": "",
     "site": ""
-  }
+  },
+  "repos_externos": [
+    "GingaHub-TCC/gingahub-AIB"
+  ]
 }

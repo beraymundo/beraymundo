@@ -6,6 +6,6 @@
 <rect x="0.5" y="0.5" width="899" height="105" rx="6" fill="#0b0b0c" stroke="#26262a"/>
 <text x="28" y="30"><tspan class="a">$</tspan><tspan class="t"> linguagens --repos-publicos</tspan></text>
 <clipPath id="c"><rect x="28" y="46" width="844" height="8" rx="4"/></clipPath>
-<g clip-path="url(#c)"><rect x="28.00" y="46" width="666.03" height="8" fill="#5b93ff"/><rect x="694.03" y="46" width="120.32" height="8" fill="#2f6fe8"/><rect x="814.35" y="46" width="57.65" height="8" fill="#9dbcff"/></g>
-<rect x="28" y="75" width="10" height="10" fill="#5b93ff"/><text x="46" y="84" class="t">PHP <tspan class="m">78.9%</tspan></text><rect x="132.2" y="75" width="10" height="10" fill="#2f6fe8"/><text x="150.2" y="84" class="t">JavaScript <tspan class="m">14.3%</tspan></text><rect x="291.0" y="75" width="10" height="10" fill="#9dbcff"/><text x="309.0" y="84" class="t">CSS <tspan class="m">6.8%</tspan></text>
+<g clip-path="url(#c)"><rect x="28.00" y="46" width="540.94" height="8" fill="#5b93ff"/><rect x="568.94" y="46" width="180.87" height="8" fill="#2f6fe8"/><rect x="749.80" y="46" width="80.43" height="8" fill="#9dbcff"/><rect x="830.23" y="46" width="41.77" height="8" fill="#1d4fb8"/></g>
+<rect x="28" y="75" width="10" height="10" fill="#5b93ff"/><text x="46" y="84" class="t">PHP <tspan class="m">64.1%</tspan></text><rect x="132.2" y="75" width="10" height="10" fill="#2f6fe8"/><text x="150.2" y="84" class="t">Blade <tspan class="m">21.4%</tspan></text><rect x="252.0" y="75" width="10" height="10" fill="#9dbcff"/><text x="270.0" y="84" class="t">JavaScript <tspan class="m">9.5%</tspan></text><rect x="403.0" y="75" width="10" height="10" fill="#1d4fb8"/><text x="421.0" y="84" class="t">CSS <tspan class="m">4.9%</tspan></text>
 </svg>
