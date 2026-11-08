@@ -8,7 +8,7 @@ Meu TCC do curso técnico é o GingaHub, uma plataforma em Laravel para gestão 
 
 Fora do curso, quase tudo que construo nasce de uma necessidade concreta. A Central de Ferramentas, por exemplo, começou como um punhado de scripts Python para gerar documentos da igreja e virou um servidor PHP com editor de .docx e .xlsx no navegador, contas de usuário, backup automático e mais de vinte ferramentas.
 
-Também participo do desenvolvimento do Titãs da Robótica, equipe do IFES Colatina na RoboCup Soccer Simulation 2D, terceira colocada no mundial de 2026. Ali o trabalho é C++ de tomada de decisão e uma regra simples: uma alteração por vez, medida em amostras grandes antes de entrar no time.
+Desde julho de 2026 faço parte do Titãs da Robótica na RoboCup Soccer Simulation 2D, equipe do IFES Colatina (antes disso, estive na equipe de RoboCupJunior Rescue Line). Ali o trabalho é C++ de tomada de decisão e uma regra simples: uma alteração por vez, medida em amostras grandes antes de entrar no time.
 
 ## ~/o-que-posso-fazer
 
@@ -36,7 +36,7 @@ Boa parte do que já fiz ainda está sendo trazida para o GitHub. Esta lista cre
 
 | projeto | o que é | stack |
 |:--|:--|:--|
-| **Titãs da Robótica 2D** | Time de futebol de robôs simulado (RoboCup 2D), terceiro lugar no mundial de 2026. Código mantido pela equipe em repositório privado. | C++ |
+| **Titãs da Robótica 2D** | Time de futebol de robôs simulado (RoboCup 2D) do IFES Colatina, em que atuo desde jul/2026. Código mantido pela equipe em repositório privado. | C++ |
 
 ## ~/stack
 
